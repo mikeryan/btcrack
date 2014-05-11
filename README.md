@@ -15,7 +15,7 @@ Updates to Updates to 1.1 (by Mike Ryan)
 
 Updates to 1.1
 ==============
-+ Format String bug (Michael Ossman)
++ Format String bug (Michael Ossmann)
 + Master ACO was overwritten by the the slave ACO thus impairing decryption (carl.dunhamm@hotmail.com)
 
 Updates left to the reader (Courtesy  of Carl Dunhamm) : 
