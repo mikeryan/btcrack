@@ -4,6 +4,14 @@ BTCrack OSS 1.1
 License : GPL3 see LICENSE
 Authors : Eric Sesterhen & Thierry Zoller
 Contact : http://www.cobra-basket.de & http://blog.zoller.lu
+GitHub: : https://github.com/mikeryan/btcrack
+
+Updates to Updates to 1.1 (by Mike Ryan)
+========================================
++ Moved to GitHub
++ Added Makefile
++ Compile with -Wall -Werror
++ Minor bugfix
 
 Updates to 1.1
 ==============
