@@ -71,7 +71,7 @@ static int StringToHex (char *string, char *hexstr, int len) {
 
 	for(i=0; i < len; i++) {
 		memcpy(&digits, ptr, 2);
-		digits[3] = '\0';
+		digits[2] = '\0';
 
 		hexstr[i] = strtoul((const char *)&digits, NULL, 16);
 		
