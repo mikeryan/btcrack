@@ -36,14 +36,14 @@ Should work with most other unixes too, code is nearly ansi clean,
 except for strdup(), but I guess every OS should have this by now.
 
 Compiling was tested so far with
-	- gcc version 4.1.1 (Gentoo 4.1.1-r3) on i686-pc-linux-gnu
-	- gcc version 4.3.0-alpha20061216 on i586-pc-linux-gnu
-	- gcc version 3.3.6 on i586-pc-linux-gnu
-	- gcc version 3.4.6 on i586-pc-linux-gnu
-	- gcc version 2.95.4 20011002 (Debian prerelease) on i686-pc-linux-gnu
-	- gcc version 4.0.3 on sparc-sun-solaris2.8
-	- icc Version 9.1 Build 20060706Z on i686-pc-linux-gnu
-	- Sun WorkShop 6 update 2 C 5.3 Patch 111679-11 2003/04/02
+- gcc version 4.1.1 (Gentoo 4.1.1-r3) on i686-pc-linux-gnu
+- gcc version 4.3.0-alpha20061216 on i586-pc-linux-gnu
+- gcc version 3.3.6 on i586-pc-linux-gnu
+- gcc version 3.4.6 on i586-pc-linux-gnu
+- gcc version 2.95.4 20011002 (Debian prerelease) on i686-pc-linux-gnu
+- gcc version 4.0.3 on sparc-sun-solaris2.8
+- icc Version 9.1 Build 20060706Z on i686-pc-linux-gnu
+- Sun WorkShop 6 update 2 C 5.3 Patch 111679-11 2003/04/02
 
 Test it with the provided csv file:
 ./btcrack 1 00:11:9F:C4:F3:AE 00:60:57:1A:6B:F1 ./Pin_654321.csv
