@@ -296,7 +296,7 @@ static int vbProcessPINInterval (
 static void read_csv(char *filename, char **InRand, char **MasterCombKey, char **SlaveCombKey, char **MasterAuRand, char **SlaveAuRand, char **MasterSres, char **SlaveSres, char *buf) {
 	FILE *fh;
 	char *tmp;
-	char *temp[6];
+	char *temp[6] = { 0, };
 	int start = 0;
 	int count = 0;
 	int who = 0;	/* 0 = unknown, 1 = master, 2 = slave */
