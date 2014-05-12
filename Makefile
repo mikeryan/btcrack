@@ -7,14 +7,15 @@ INSTALL_DIR ?= $(DESTDIR)/$(PREFIX)/bin
 OBJS = btcrack.o btcrackmain.o
 
 CFLAGS  ?= -O3 -Wall
-LDFLAGS ?= -lpthread
+LDFLAGS ?=
 
 all: btcrack
 
 btcrack: $(OBJS)
-	$(CC) -o btcrack $(OBJS) $(LDFLAGS)
+	$(CC) -o btcrack $(OBJS) -lpthread $(LDFLAGS)
 
 install: btcrack
+	mkdir -p $(INSTALL_DIR)
 	$(INSTALL) -m 0755 btcrack $(INSTALL_DIR)
 
 uninstall:
