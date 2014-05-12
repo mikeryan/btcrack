@@ -6,7 +6,7 @@ INSTALL_DIR ?= $(DESTDIR)/$(PREFIX)/bin
 
 OBJS = btcrack.o btcrackmain.o
 
-CFLAGS  ?= -O3 -Wall -Werror
+CFLAGS  ?= -O3 -Wall
 LDFLAGS ?= -lpthread
 
 all: btcrack
